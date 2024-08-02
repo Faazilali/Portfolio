@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <h1>Portfolio</h1>
+        </div>
+        
+        <div class="nav-bar">
+            <ul type="none">
+                <li><a href="#" class="hide">Home</a></li>
+                <li><a href="#" class="hide">Resume</a></li>
+                <li><a href="#" class="hide">Projects</a></li>
+                <li><a href="#" class="hide">Contact</a></li>
+                <li class="menu-bar"onclick=openBar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="35px" viewBox="0 -960 960 960" width="35px" fill="#5f6368"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+            </ul>
+
+            <ul class="sidebar" type="none">
+                <li onclick=closeBar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#project">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <div class="content1" id="home">
+        <div class="img">
+            <img src="img.jpg">
+        </div>
+
+        <div class="content">
+            <h1>Hello...<br>
+            I am <span>Faazil Ali</span></h1>
+            <p>Currently building responsive websites and exploring 
+            back-end technologies. Eager to apply classroom knowledge to real-world 
+            projects and contribute to innovative web solutions.</p>
+            <a href="#project">
+                <button>Projects</button>
+            </a>
+        </div>
+    </div>
+
+
+    <div class="resume" id="resume">
+        <h1 id="heading">Resume</h1>
+        
+        <div class="big">
+            <div class="block1">
+                <h1>Education</h1>
+            </div>
+           
+            <div class="block2">
+                
+                <div class="div1">
+                    <div class="year">
+                        <p>2023-2026</p>
+                    </div>
+                    <div class="content">
+                        <h1>Bachelor in Computer Application</h1>
+                        <p>ITM(SLS) Baroda University</p>
+                        <p>Obtained 9.52 CGPA in first sem.</p>
+                    </div>
+                </div>
+
+                <div class="div2">
+                    <div class="year">
+                        <p>2022-2023</p>
+                    </div>
+                    <div class="content">
+                        <h1>HSC</h1>
+                        <p>Zenith High school</p>
+                        <p>Grade: 95.67 Percentile</p>
+                    </div>
+                </div>
+
+                <div class="div3">
+                    <div class="year">
+                        <p>2020-2021</p>
+                    </div>
+                    <div class="content">
+                        <h1>SSC</h1>
+                        <p>Zenith High school</p>
+                        <p>Grade: 95.06 Percentile</p>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+        <hr>
+
+        <div class="interest">
+
+            <div class="heading">
+                <h1>Programming languages</h1>
+            </div>
+            <div class="img">
+                <img src="html.png">
+                <img src="css.png">
+                <img src="javascript.png">
+                <img src="c.png">
+                <img src="python.png">
+                <img src="java.png">
+            </div>
+        </div>
+        
+        
+    </div>
+
+    <div class="project" id="project">
+        <h1>Projects</h1>
+        <div class="prjt1">
+            <h2>CuratyX</h2>
+            <p>Demo website of CuratyX with the use of HTML/CSS.</p>
+            <img src="Screenshot (74).png">
+            <a href="https://github.com/Faazilali/curatyx.git">
+                <button>Github</button>
+            </a>
+            <a href="https://faazilali.github.io/curatyx/">
+                <button>View</button>
+            </a>
+        </div>
+
+        <div class="prjt2">
+            <h2>SOLUTION</h2>
+            <p>Created a website template of creative digital agency with the use 
+            of HTML/CSS.</p>
+            <img src="Screenshot (95).png">
+            <a href="https://github.com/Faazilali/creative_agency.git">
+                <button>Github</button>
+            </a>
+            <a href="https://faazilali.github.io/creative_agency/">
+                <button>View</button>
+            </a>
+        </div>
+
+        <div class="prjt3">
+            <h2>MiniStore</h2>
+            <p>Created a E-commerce website template of electronic gadgets with the use 
+                of HTML/CSS and Javascript.
+            </p>
+            <img src="Screenshot (100).png">
+            <a href="https://github.com/Faazilali/miniStore.git">
+                <button>Github</button>
+            </a>
+            <a href="https://faazilali.github.io/miniStore/">
+                <button>View</button>
+            </a>
+        </div>
+    </div>
+
+    <hr>
+
+    <div class="contact" id="contact">
+        <div class="phone">
+            <h2>Phone</h2>
+            <p>+91 6352682005</p>
+        </div>
+
+        <div class="email">
+            <h2>Email</h2>
+            <p>faazilalipunawala@gmail.com</p>
+        </div>
+
+        <div class="follow">
+            <h2>Follow Me</h2>
+            <a href="https://github.com/Faazilali"><i class="fa fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/faazil-ali-poonawala-4779552bb?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa fa-linkedin-square"></i></a>
+           <a href="https://www.instagram.com/faazilali_19?igsh=cTh3OG9pZmUyN2x6"> <i class="fa fa-instagram" aria-hidden="true"></i></a>
+        </div>
+
+        <div class="form">
+
+            <form action="https://api.web3forms.com/submit" method="POST" class="form" data-form> 
+                <input type="hidden" name="access_key" value="11ae4065-dffd-40d2-9753-049bef0b097e">
+
+                <label for="name">Name</label><br>
+                <input type="text" name="name" id="name"><br><br>
+                
+                <label for="email">Email</label><br>
+                <input type="email" name="email" id="email"><br><br>
+
+                <label for="message">Message</label><br>
+                <textarea id="message" name="message"></textarea><br><br>
+
+                <input type="submit" class="submit" value="submit">
+            </form>
+        </div>
+    </div>
+
+    <footer>
+        <p>© 2024 By Faazil Ali.</p>
+    </footer>
+    
+
+
+
+
+<script src="script.js"></script>    
+</body>
+</html>

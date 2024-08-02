@@ -1,0 +1,365 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-right:.3rem;
+    margin-left:.3rem;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+nav{
+    display:flex;
+    margin-top:2rem;
+}
+
+.menu-bar{
+    position:absolute;
+    right:.5rem;
+    top:2rem;
+}
+
+.hide{
+    display:none;
+}
+
+.logo h1{
+    font-size:2rem;
+}
+
+.sidebar{
+    position:fixed;
+    top:0;
+    right:0;
+    height:80vh;
+    width:10rem;
+    z-index: 999;
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(12px);
+    box-shadow: -10px 0 10px rgba(0,0,0,0.1);
+    display:none;
+    flex-direction:column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  
+.sidebar li{
+    font-size: 1.5rem;
+    padding-top:1.5rem;
+    padding-left:2rem;
+  } 
+  
+.sidebar a{
+    text-decoration: none;
+    color:black;
+  }
+
+.sidebar a:hover{
+    color:#FFD700;
+}
+
+.content1{
+    margin-top:5rem;
+}
+
+.content1 .img{
+    text-align: center;
+}
+
+.content1 .img img{
+    width:20rem;
+    height:auto;
+    border-radius: 50%;
+}
+
+.content1 .content{
+    margin-top:1rem;
+}
+
+.content1 .content h1{
+    font-size:2rem;
+}
+
+.content1 .content h1 span{
+    color:#F5B041; 
+}
+
+.content1 .content p{
+    margin-top:1rem;
+    font-size:1.2rem;
+}
+
+.content1 .content button{
+    border-radius: .2rem;
+    padding:.5rem;
+    width:8rem;
+    font-size:1.2rem;
+    margin-top:1rem;
+    background-color:  #FFD700;
+    border:transparent;
+}
+
+.resume{
+    margin-top:5rem;
+}
+
+.resume #heading{
+    color:#F5B041;
+    font-size:2.8rem;
+}
+
+.big{
+    margin-top:2rem;
+    margin-bottom: 2rem;
+}
+
+.big .block1{
+    font-size:.9rem;
+}
+
+.block2 .div1{
+    margin-top:2rem;
+}
+
+.block2 .div1 .year p{
+    font-size:1rem;
+}
+
+.block2 .div1 .content h1{
+    font-size:1.5rem;
+}
+
+.block2 .div1 .content p{
+    margin-top:.3rem;
+}
+
+.block2 .div2{
+    margin-top:2rem;
+}
+
+.block2 .div2 .year p{
+    font-size:1rem;
+}
+
+.block2 .div2 .content h1{
+    font-size:1.5rem;
+}
+
+.block2 .div2 .content p{
+    margin-top:.3rem;
+}
+
+.block2 .div3{
+    margin-top:2rem;
+}
+
+.block2 .div3 .year p{
+    font-size:1rem;
+}
+
+.block2 .div3 .content h1{
+    font-size:1.5rem;
+}
+
+.block2 .div3 .content p{
+    margin-top:.3rem;
+}
+
+hr{
+    margin-right:.3rem;
+    margin-left:.3rem;
+}
+
+.interest{
+    margin-top:2rem;
+}
+
+
+.interest .img{
+    margin-top:2rem;
+    display:grid;
+    grid-template: 1fr 1fr/ 1fr 1fr;
+    row-gap:3rem;
+    column-gap:2rem;
+}
+
+.interest .img img{
+    width:6rem;
+    height:auto;
+    height:7rem;
+}
+
+.project{
+    margin-top:7rem;
+    margin-bottom:3rem;
+}
+
+.project h1{
+    font-size:2.8rem;
+    color:#F5B041;
+}
+
+.prjt1{
+    margin-top:2rem;
+}
+
+.prjt1 h2{
+    font-size:2rem;
+}
+
+.prjt1 p{
+    margin-top:.5rem;
+    font-size:1.2rem;
+}
+
+.prjt1 img{
+    width:100%;
+    width:20rem;
+    box-shadow: 2px 1px 10px 2px #888888;
+    margin-top:1.5rem;
+    border-radius: .2rem;
+}
+
+.prjt1 a{
+    text-decoration: none;
+}
+
+.prjt1 button{
+    margin-top: 1rem;
+    width:7rem;
+    padding:.5rem;
+    border-radius: .2rem;
+    background-color:  #FFD700;
+    font-size:1.2rem;
+    border: transparent;
+}
+
+.prjt2{
+    margin-top:4rem;
+}
+
+.prjt2 h2{
+    font-size:2rem;
+}
+
+.prjt2 p{
+    margin-top:.5rem;
+    font-size:1.2rem;
+}
+
+.prjt2 img{
+    width:100%;
+    width:20rem;
+    box-shadow: 2px 1px 10px 2px #888888;
+    margin-top:1.5rem;
+    border-radius: .2rem;
+}
+
+.prjt2 a{
+    text-decoration: none;
+}
+
+.prjt2 button{
+    margin-top: 1rem;
+    width:7rem;
+    padding:.5rem;
+    border-radius: .2rem;
+    background-color:  #FFD700;
+    font-size:1.2rem;
+    border: transparent;
+}
+
+.prjt3{
+    margin-top:4rem;
+}
+
+.prjt3 h2{
+    font-size:2rem;
+}
+
+.prjt3 p{
+    margin-top:.5rem;
+    font-size:1.2rem;
+}
+
+.prjt3 img{
+    width:100%;
+    width:20rem;
+    box-shadow: 2px 1px 10px 2px #888888;
+    margin-top:1.5rem;
+    border-radius: .2rem;
+}
+
+.prjt3 a{
+    text-decoration: none;
+}
+
+.prjt3 button{
+    margin-top: 1rem;
+    width:7rem;
+    padding:.5rem;
+    border-radius: .2rem;
+    background-color:  #FFD700;
+    font-size:1.2rem;
+    border: transparent;
+}
+
+.contact{
+    margin-top:2rem;
+    margin-bottom:2rem;
+}
+
+.contact .email{
+    margin-top:2rem;
+}
+
+.contact .follow{
+    margin-top:2rem;
+}
+
+.contact .follow a{
+    font-size: 1.5rem;
+    text-decoration: none;
+    color:#FFD700;
+}
+
+.contact .follow a i{
+    margin-top:1rem;
+}
+
+.contact p{
+    color:#FFD700;
+    font-size: 1.2rem;
+}
+
+.form{
+    margin-top:2rem;
+}
+
+.form label{
+    margin-top:2rem;
+    font-size:1.2rem;
+}
+
+.form input, .form textarea{
+    margin-top:.5rem;
+    font-size:1.2rem;
+    padding:.5rem;
+    border-radius: .2rem;
+    width:100%;
+}
+
+.form .submit{
+    border-radius: .2rem;
+    background-color: #FFD700;
+    border: transparent;
+}
+
+footer{
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
